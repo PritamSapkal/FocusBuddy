@@ -12,7 +12,7 @@
 <p><b>Tagline:</b> <i>Sharpen Your Vision. Persist Your Progress. Own Your Day.</i></p>
 
 <p>
-FocusBuddy is a premium, high-fidelity productivity and focus tracking mobile application engineered using Flutter. Architected with an emphasis on state synchronization and reliable session management, FocusBuddy empowers users to define their critical daily objectives and intuitively track task execution metrics through a modern, responsive user experience.
+FocusBuddy is a clean and intuitive productivity app built using Flutter to practice state management and local data saving. Designed with a modern dark theme, it allows users to set a daily focus goal and easily track their completion progress through an interactive interface.
 </p>
 
 <hr>
@@ -20,7 +20,7 @@ FocusBuddy is a premium, high-fidelity productivity and focus tracking mobile ap
 <h2>📌 About the Application</h2>
 
 <p>
-FocusBuddy represents a rapid, high-intensity engineering milestone—fully designed, architected, and brought to production readiness within a focused 2-day sprint. The primary architectural objective of this project was to master clean state management separation using the Observer pattern alongside robust client-side session persistence. It moves past static mockups to implement active state binding, persistent data hydration, and fluid geometric progress rendering.
+FocusBuddy is a practice project built to learn and implement core Flutter concepts. The primary goal of this application was to master clean state management using the Observer pattern (via Provider) and figure out how to handle local data persistence (via Shared Preferences). It goes beyond static UI layouts to implement active state updates, data saving, and a fluid circular progress bar.
 </p>
 
 <hr>
@@ -35,14 +35,14 @@ FocusBuddy represents a rapid, high-intensity engineering milestone—fully desi
 
 <hr>
 
-<h2>✨ Core Engineering Features</h2>
+<h2>✨ Core Features</h2>
 
 <ul>
-  <li>⚡ <b>Reactive State Management:</b> Powered entirely by <b>Provider</b> to establish a strict unidirectional data flow, ensuring all progress modifications instantly propagate across the UI layer without unnecessary widget rebuilds.</li>
-  <li>🔒 <b>Persistent Authentication Lifecycle:</b> Implements intelligent session caching via <b>Shared Preferences</b>. Active login tokens are verified during initialization, allowing authenticated users to bypass the login layout entirely and auto-route straight to the dashboard.</li>
-  <li>📊 <b>High-Fidelity Progress Visualization:</b> Integrates an interactive circular percent indicator that dynamically translates task completion steps into real-time visual progress arcs, featuring centered integer text reflections.</li>
-  <li>💾 <b>State Hydration & Crash Resilience:</b> Automatically synchronizes the user's focus goals, task data, and exact progress metrics to local device storage. If the application process is terminated, the full state is restored seamlessly upon relaunch.</li>
-  <li>🚪 <b>Secure Session Invalidation:</b> Features a unified logout routine that completely flushes stored authentication flags and state metrics before safely re-routing the user back to the primary gateway interface.</li>
+  <li>⚡ <b>Reactive State Management:</b> Powered by <b>Provider</b> to handle state updates efficiently, ensuring that progress modifications instantly reflect across the UI screens without rebuilding the entire widget tree.</li>
+  <li>🔒 <b>Persistent Authentication Lifecycle:</b> Implements basic session caching via <b>Shared Preferences</b>. The app checks for a login flag during startup, allowing authenticated users to bypass the login screen and auto-route straight to the home dashboard.</li>
+  <li>📊 <b>Interactive Progress Visualization:</b> Integrates a circular percent indicator that dynamically translates task completion steps into real-time visual progress updates with centered text reflections.</li>
+  <li>💾 <b>Local Data Persistence:</b> Automatically saves the user's focus goals, text inputs, and exact progress metrics to the device storage. If the app is closed or restarted, the state is restored seamlessly upon relaunch.</li>
+  <li>🚪 <b>Session Invalidation (Logout):</b> Features a clear logout routine that flushes the stored authentication flag and resets the application state before safely routing the user back to the login gateway.</li>
 </ul>
 
 <hr>
