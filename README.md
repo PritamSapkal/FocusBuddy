@@ -9,7 +9,7 @@
   </a>
 </p>
 
-<p><b>Tagline:</b> <i>Sharpen Your Vision. Persist Your Progress. Own Your Day.</i></p>
+<p><b>Tagline:</b> <i>A minimalist dark-themed focus tracker built with Provider and Shared Preferences.</i></p>
 
 <p>
 FocusBuddy is a clean and intuitive productivity app built using Flutter to practice state management and local data saving. Designed with a modern dark theme, it allows users to set a daily focus goal and easily track their completion progress through an interactive interface.
