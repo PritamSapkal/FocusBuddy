@@ -133,6 +133,7 @@ This repository showcases solid foundational patterns for reactive UI programmin
 
 <h2>📄 Educational License</h2>
 
+
 <p>This application is engineered strictly for learning, architectural demonstration, and educational portfolio purposes.</p>
 
 <hr>
