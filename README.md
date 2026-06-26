@@ -70,9 +70,6 @@ FocusBuddy is a practice project built to learn and implement core Flutter conce
       <li>The Home Dashboard exposes interactive control nodes (Add/Remove steps). Interaction triggers state dispatches inside the change notifier, computing new percentages and writing updates to disk asynchronously.</li>
     </ul>
   </li>
-
-
-
   <li>
     <b>Session De-authorization</b>
     <ul>
