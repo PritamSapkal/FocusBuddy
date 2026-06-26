@@ -17,6 +17,7 @@ FocusBuddy is a clean and intuitive productivity app built using Flutter to prac
 
 <hr>
 
+
 <h2>📌 About the Application</h2>
 
 <p>
